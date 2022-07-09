@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'PT Serif', monospace;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    min-height: 5vh;
+    margin-top: 2rem;
+}
+
+#about-us {
+    font-family: 'Poppins', monospace;
+}
+
+#about-us > p {
+    width: 45ch;
+    padding: 0 1rem;
+}
+
+main {
+    min-height: 80vh;
+    width: 90%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.team-member {
+    width: 20%;
+    position: relative;
+    text-align: left;
+    font-family: 'Poppins', monospace;
+}
+
+.team-member > img {
+    position: relative;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+.team-member:nth-child(1)::after {
+       top: 11%;
+       right: -3%;
+}
+
+.team-member:nth-child(2) {
+    margin-top: 5rem;
+}
+
+.team-member::after {
+    font-family: 'PT Serif', monospace;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8.75%;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+.team-member.owner::after {
+    content: "Product Owner";
+}
+
+.team-member.director::after {
+    content: "Art Director";
+}
+
+.team-member.lead::after {
+    content: "Tech Lead";
+}
+
+.team-member.ux::after {
+    content: "UX Designer";
+}
+
+.team-member.developer::after {
+    content: "Developer";
+}
+
+
+footer {
+	width: 90%;
+	text-align: center;
+	color: #bdbdbd;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .team-member {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    .team-member > img {
+        max-width: 90%;
+    }
+}
