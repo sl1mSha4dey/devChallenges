@@ -1,4 +1,5 @@
-# devChallenges This repository will be dedicated to the challenges that I will do through my journey. 
+# devChallenges 
+This repository will be dedicated to the challenges that I will do through my journey. 
 
 <h1 align="center">Challenge #1 - 404 Error Challenge</h1>
 
