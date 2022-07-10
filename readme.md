@@ -13,7 +13,7 @@ This repository will be dedicated to the challenges that I will do through my jo
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/OEKdUZ6xs0h99C38XVht">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
